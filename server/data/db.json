@@ -1,0 +1,462 @@
+{
+  "users": [
+    {
+      "id": "usr_ca5bb1035ed83ba7",
+      "name": "Bhumi Batawale",
+      "email": "bbbatawale_b22@ce.vjti.ac.in",
+      "googleId": "111858594482922938158",
+      "avatar": "https://lh3.googleusercontent.com/a/ACg8ocL89-KvGbMstdUbirl__250IzFFrgRYG_7_PsGCS6hYPkgW5g=s96-c",
+      "role": "employee",
+      "createdAt": "2026-10-08T09:18:49.169Z",
+      "updatedAt": "2026-10-08T09:18:49.169Z"
+    },
+    {
+      "id": "usr_106f0f2f0ef70233",
+      "name": "Venkat",
+      "email": "abc@gmail.com",
+      "passwordHash": "$2b$10$pnrO6mHXNkZKZ8n/lk0EPeie6RTZ6qI9K.7BseMRZmEiso/B/hwhG",
+      "role": "employee",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Venkat",
+      "createdAt": "2026-10-08T09:33:32.629Z",
+      "updatedAt": "2026-10-08T09:33:32.632Z"
+    },
+    {
+      "id": "usr_ab41bb052773a115",
+      "name": "Kartik",
+      "email": "admin@gmail.com",
+      "passwordHash": "$2b$10$nFrREaDfI9T79amI7PzyiuVh20mcJqts94Sk56vk35vinMsUP2fy6",
+      "role": "employee",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Kartik",
+      "createdAt": "2026-10-08T12:38:12.984Z",
+      "updatedAt": "2026-10-08T12:38:12.984Z"
+    },
+    {
+      "id": "usr_0606b143dd1710fe",
+      "name": "Hitesh Patel",
+      "email": "hiteshpatel@gmail.com",
+      "passwordHash": "$2b$10$AgZBspoCbOmhU/owgfZGxOxJwDv.Qcv84wQF51iM97L2kwucf4C1y",
+      "role": "employee",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Hitesh%20Patel",
+      "createdAt": "2026-10-09T06:17:10.978Z",
+      "updatedAt": "2026-10-09T06:17:10.978Z"
+    }
+  ],
+  "eventConfig": {
+    "id": "event_config_1",
+    "eventName": "DG Tech Offsite 2.0",
+    "departureDate": "10 October 2026",
+    "departureStartPoint": "G Corp Tech Park",
+    "departureDestination": "Anchaviyo Resort",
+    "departureStartCoords": {
+      "lat": 19.2665,
+      "lng": 72.9775
+    },
+    "departureDestCoords": {
+      "lat": 19.6467,
+      "lng": 73.1384
+    },
+    "returnDate": "12 October 2026",
+    "returnStartPoint": "Anchaviyo Resort",
+    "returnDestination": "G Corp Tech Park",
+    "returnStartCoords": {
+      "lat": 19.6467,
+      "lng": 73.1384
+    },
+    "returnDestCoords": {
+      "lat": 19.2665,
+      "lng": 72.9775
+    },
+    "busCount": 2,
+    "trackingDurationMinutes": 240,
+    "returnTripEnabled": false,
+    "updatedAt": "2026-10-07T19:08:00.000Z"
+  },
+  "vehicles": [
+    {
+      "id": "veh_5eb0b1dde8762d2f",
+      "vehicleId": "BUS_2",
+      "type": "BUS",
+      "busNumber": "Bus 2",
+      "passengers": [
+        {
+          "name": "Bhumi Batawale",
+          "userId": "usr_ca5bb1035ed83ba7"
+        }
+      ],
+      "startLocation": "G Corp Tech Park",
+      "route": "G Corp Tech Park → Anchaviyo Resort",
+      "tripType": "DEPARTURE",
+      "trackingStatus": "ACTIVE",
+      "createdAt": "2026-10-08T09:19:05.376Z",
+      "updatedAt": "2026-10-08T09:19:19.205Z",
+      "currentLatitude": 19.266480321765325,
+      "currentLongitude": 72.9646230781823,
+      "accuracy": 55,
+      "speed": null,
+      "heading": null,
+      "trackingStartedAt": "2026-10-08T09:19:18.865Z",
+      "trackingEndedAt": null,
+      "lastUpdated": "2026-10-08T09:19:19.205Z"
+    },
+    {
+      "id": "veh_ddff526bbdaae487",
+      "vehicleId": "BUS_1",
+      "type": "BUS",
+      "busNumber": "Bus 1",
+      "passengers": [
+        {
+          "name": "Venkat",
+          "userId": "usr_106f0f2f0ef70233"
+        },
+        {
+          "name": "Kartik",
+          "userId": "usr_ab41bb052773a115"
+        }
+      ],
+      "startLocation": "G Corp Tech Park",
+      "route": "G Corp Tech Park → Anchaviyo Resort",
+      "tripType": "DEPARTURE",
+      "trackingStatus": "ACTIVE",
+      "createdAt": "2026-10-08T09:33:46.502Z",
+      "updatedAt": "2026-10-08T12:40:09.427Z",
+      "currentLatitude": 19.266487935175487,
+      "currentLongitude": 72.96462626519121,
+      "accuracy": 55,
+      "speed": null,
+      "heading": null,
+      "trackingStartedAt": "2026-10-08T09:33:54.856Z",
+      "trackingEndedAt": null,
+      "lastUpdated": "2026-10-08T12:40:09.427Z"
+    },
+    {
+      "id": "veh_8c8be4c8cecd061f",
+      "vehicleId": "CAR_MH01EU6122",
+      "type": "CAR",
+      "vehicleNumber": "MH01EU6122",
+      "carModel": "Kia Seltos",
+      "ownerId": "usr_0606b143dd1710fe",
+      "ownerName": "Hitesh Patel",
+      "passengers": [
+        {
+          "name": "Hitesh Patel"
+        },
+        {
+          "name": "Bhoomi"
+        },
+        {
+          "name": "Anjan"
+        },
+        {
+          "name": "Suraj"
+        }
+      ],
+      "startLocation": "thaen",
+      "route": "Thane → Western Express Highway → Anchaviyo Resort",
+      "tripType": "DEPARTURE",
+      "trackingStatus": "INACTIVE",
+      "createdAt": "2026-10-09T06:19:41.495Z",
+      "updatedAt": "2026-10-09T06:20:54.716Z",
+      "currentLatitude": 19.266479781659424,
+      "currentLongitude": 72.96461914437661,
+      "accuracy": 55,
+      "speed": null,
+      "heading": null,
+      "trackingStartedAt": "2026-10-09T06:20:00.906Z",
+      "trackingEndedAt": null,
+      "lastUpdated": "2026-10-09T06:20:00.937Z"
+    }
+  ],
+  "tripRegistrations": [
+    {
+      "id": "reg_5d86ac1086527807",
+      "userId": "usr_ca5bb1035ed83ba7",
+      "userName": "Bhumi Batawale",
+      "userEmail": "bbbatawale_b22@ce.vjti.ac.in",
+      "tripType": "DEPARTURE",
+      "mode": "BUS",
+      "vehicleId": "BUS_2",
+      "busNumber": "Bus 2",
+      "isOwner": false,
+      "passengers": [
+        {
+          "name": "Bhumi Batawale",
+          "userId": "usr_ca5bb1035ed83ba7"
+        }
+      ],
+      "createdAt": "2026-10-08T09:19:05.378Z",
+      "updatedAt": "2026-10-08T09:19:05.378Z"
+    },
+    {
+      "id": "reg_0a3018a82b9c3fc3",
+      "userId": "usr_106f0f2f0ef70233",
+      "userName": "Venkat",
+      "userEmail": "abc@gmail.com",
+      "tripType": "DEPARTURE",
+      "mode": "BUS",
+      "vehicleId": "BUS_1",
+      "busNumber": "Bus 1",
+      "isOwner": false,
+      "passengers": [
+        {
+          "name": "Venkat",
+          "userId": "usr_106f0f2f0ef70233"
+        }
+      ],
+      "createdAt": "2026-10-08T09:33:46.506Z",
+      "updatedAt": "2026-10-08T09:33:46.506Z"
+    },
+    {
+      "id": "reg_2d3f390ac9507b0e",
+      "userId": "usr_ab41bb052773a115",
+      "userName": "Kartik",
+      "userEmail": "admin@gmail.com",
+      "tripType": "DEPARTURE",
+      "mode": "BUS",
+      "vehicleId": "BUS_1",
+      "busNumber": "Bus 1",
+      "isOwner": false,
+      "passengers": [
+        {
+          "name": "Kartik",
+          "userId": "usr_ab41bb052773a115"
+        }
+      ],
+      "createdAt": "2026-10-08T12:40:00.649Z",
+      "updatedAt": "2026-10-08T12:40:00.649Z"
+    },
+    {
+      "id": "reg_4abe76e782237908",
+      "userId": "usr_0606b143dd1710fe",
+      "userName": "Hitesh Patel",
+      "userEmail": "hiteshpatel@gmail.com",
+      "tripType": "DEPARTURE",
+      "mode": "CAR",
+      "vehicleId": "CAR_MH01EU6122",
+      "vehicleNumber": "MH01EU6122",
+      "carModel": "Kia Seltos",
+      "isOwner": true,
+      "startLocation": "thaen",
+      "route": "Thane → Western Express Highway → Anchaviyo Resort",
+      "passengers": [
+        {
+          "name": "Hitesh Patel"
+        },
+        {
+          "name": "Bhoomi"
+        },
+        {
+          "name": "Anjan"
+        },
+        {
+          "name": "Suraj"
+        }
+      ],
+      "createdAt": "2026-10-09T06:19:41.498Z",
+      "updatedAt": "2026-10-09T06:20:54.718Z"
+    }
+  ],
+  "attendances": [
+    {
+      "id": "att_4f5e39b6d2ac08dc",
+      "userId": "usr_ca5bb1035ed83ba7",
+      "userName": "Bhumi Batawale",
+      "userEmail": "bbbatawale_b22@ce.vjti.ac.in",
+      "tripType": "DEPARTURE",
+      "vehicleId": "BUS_2",
+      "mode": "BUS",
+      "busNumber": "Bus 2",
+      "carVehicleNumber": null,
+      "status": "MARKED",
+      "locationPermission": "GRANTED",
+      "locationActiveAtMark": true,
+      "markedLatitude": 19.266480321765325,
+      "markedLongitude": 72.9646230781823,
+      "markedAt": "2026-10-08T09:19:21.153Z"
+    },
+    {
+      "id": "att_cd9bf4a4a463032d",
+      "userId": "usr_106f0f2f0ef70233",
+      "userName": "Venkat",
+      "userEmail": "abc@gmail.com",
+      "tripType": "DEPARTURE",
+      "vehicleId": "BUS_1",
+      "mode": "BUS",
+      "busNumber": "Bus 1",
+      "carVehicleNumber": null,
+      "status": "MARKED",
+      "locationPermission": "GRANTED",
+      "locationActiveAtMark": true,
+      "markedLatitude": 19.266491054533223,
+      "markedLongitude": 72.96462114407544,
+      "markedAt": "2026-10-08T09:33:56.892Z"
+    },
+    {
+      "id": "att_875735dde7155939",
+      "userId": "usr_ab41bb052773a115",
+      "userName": "Kartik",
+      "userEmail": "admin@gmail.com",
+      "tripType": "DEPARTURE",
+      "vehicleId": "BUS_1",
+      "mode": "BUS",
+      "busNumber": "Bus 1",
+      "carVehicleNumber": null,
+      "status": "MARKED",
+      "locationPermission": "GRANTED",
+      "locationActiveAtMark": true,
+      "markedLatitude": 19.266487935175487,
+      "markedLongitude": 72.96462626519121,
+      "markedAt": "2026-10-08T12:40:12.369Z"
+    },
+    {
+      "id": "att_5f487e1f1bb59790",
+      "userId": "usr_0606b143dd1710fe",
+      "userName": "Hitesh Patel",
+      "userEmail": "hiteshpatel@gmail.com",
+      "tripType": "DEPARTURE",
+      "vehicleId": "CAR_MH01EU6122",
+      "mode": "CAR",
+      "busNumber": null,
+      "carVehicleNumber": "MH01EU6122",
+      "status": "MARKED",
+      "locationPermission": "GRANTED",
+      "locationActiveAtMark": true,
+      "markedLatitude": 19.266479781659424,
+      "markedLongitude": 72.96461914437661,
+      "markedAt": "2026-10-09T06:20:03.896Z"
+    }
+  ],
+  "locationLogs": [
+    {
+      "id": "loc_b493cd1c2be593b0",
+      "vehicleId": "BUS_2",
+      "userId": "usr_ca5bb1035ed83ba7",
+      "tripType": "DEPARTURE",
+      "latitude": 19.266480321765325,
+      "longitude": 72.9646230781823,
+      "accuracy": 55,
+      "speed": null,
+      "heading": null,
+      "timestamp": "2026-10-08T09:19:18.868Z"
+    },
+    {
+      "id": "loc_24144c7f5c0a5c7f",
+      "vehicleId": "BUS_2",
+      "userId": "usr_ca5bb1035ed83ba7",
+      "tripType": "DEPARTURE",
+      "latitude": 19.266480321765325,
+      "longitude": 72.9646230781823,
+      "accuracy": 55,
+      "speed": null,
+      "heading": null,
+      "timestamp": "2026-10-08T09:19:18.887Z"
+    },
+    {
+      "id": "loc_a126b2fb8f97aaeb",
+      "vehicleId": "BUS_2",
+      "userId": "usr_ca5bb1035ed83ba7",
+      "tripType": "DEPARTURE",
+      "latitude": 19.266480321765325,
+      "longitude": 72.9646230781823,
+      "accuracy": 55,
+      "speed": null,
+      "heading": null,
+      "timestamp": "2026-10-08T09:19:18.910Z"
+    },
+    {
+      "id": "loc_00d2a33301168774",
+      "vehicleId": "BUS_2",
+      "userId": "usr_ca5bb1035ed83ba7",
+      "tripType": "DEPARTURE",
+      "latitude": 19.266480321765325,
+      "longitude": 72.9646230781823,
+      "accuracy": 55,
+      "speed": null,
+      "heading": null,
+      "timestamp": "2026-10-08T09:19:19.208Z"
+    },
+    {
+      "id": "loc_4c05c0f5cf0364e0",
+      "vehicleId": "BUS_1",
+      "userId": "usr_106f0f2f0ef70233",
+      "tripType": "DEPARTURE",
+      "latitude": 19.266491054533223,
+      "longitude": 72.96462114407544,
+      "accuracy": 55,
+      "speed": null,
+      "heading": null,
+      "timestamp": "2026-10-08T09:33:54.864Z"
+    },
+    {
+      "id": "loc_bcfa6b79ade67ce7",
+      "vehicleId": "BUS_1",
+      "userId": "usr_106f0f2f0ef70233",
+      "tripType": "DEPARTURE",
+      "latitude": 19.266491054533223,
+      "longitude": 72.96462114407544,
+      "accuracy": 55,
+      "speed": null,
+      "heading": null,
+      "timestamp": "2026-10-08T09:33:56.099Z"
+    },
+    {
+      "id": "loc_2c7c6b1e2ee56c77",
+      "vehicleId": "BUS_1",
+      "userId": "usr_106f0f2f0ef70233",
+      "tripType": "DEPARTURE",
+      "latitude": 19.266491054533223,
+      "longitude": 72.96462114407544,
+      "accuracy": 55,
+      "speed": null,
+      "heading": null,
+      "timestamp": "2026-10-08T09:33:56.875Z"
+    },
+    {
+      "id": "loc_dbb222c0bbf91bf7",
+      "vehicleId": "BUS_1",
+      "userId": "usr_ab41bb052773a115",
+      "tripType": "DEPARTURE",
+      "latitude": 19.266487935175487,
+      "longitude": 72.96462626519121,
+      "accuracy": 55,
+      "speed": null,
+      "heading": null,
+      "timestamp": "2026-10-08T12:40:09.400Z"
+    },
+    {
+      "id": "loc_dee3e337e6524ec6",
+      "vehicleId": "BUS_1",
+      "userId": "usr_ab41bb052773a115",
+      "tripType": "DEPARTURE",
+      "latitude": 19.266487935175487,
+      "longitude": 72.96462626519121,
+      "accuracy": 55,
+      "speed": null,
+      "heading": null,
+      "timestamp": "2026-10-08T12:40:09.429Z"
+    },
+    {
+      "id": "loc_9b930de1556aa1cf",
+      "vehicleId": "CAR_MH01EU6122",
+      "userId": "usr_0606b143dd1710fe",
+      "tripType": "DEPARTURE",
+      "latitude": 19.266479781659424,
+      "longitude": 72.96461914437661,
+      "accuracy": 55,
+      "speed": null,
+      "heading": null,
+      "timestamp": "2026-10-09T06:20:00.909Z"
+    },
+    {
+      "id": "loc_ba57708aebca8b53",
+      "vehicleId": "CAR_MH01EU6122",
+      "userId": "usr_0606b143dd1710fe",
+      "tripType": "DEPARTURE",
+      "latitude": 19.266479781659424,
+      "longitude": 72.96461914437661,
+      "accuracy": 55,
+      "speed": null,
+      "heading": null,
+      "timestamp": "2026-10-09T06:20:00.940Z"
+    }
+  ]
+}
